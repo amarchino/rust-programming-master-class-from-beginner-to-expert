@@ -1,4 +1,5 @@
-fn main() {
+pub fn exec() {
+    println!("VARIABLES AND CONSTANTS");
     let x: i16 = 10;
     println!("x is: {x}");
 
@@ -20,8 +21,9 @@ fn main() {
     println!("t is: {t}");
 
     let u: i32 = 3;
-    let u: f64 = 3.0;
     println!("u is: {u}");
+    let u: f64 = 3.0;
+    println!("u (shadowed) is: {u}");
 
     let v: i32 = 30;
     {
@@ -32,4 +34,7 @@ fn main() {
 
     // Constants
     const MAX_VALUE: u32 = 100;
+    println!("MAX_VALUE is: {MAX_VALUE}");
+
+    println!("-----\n");
 }

@@ -4,6 +4,7 @@ mod compound_data_types;
 mod functions_code_blocks;
 mod conditionals;
 mod control_flow;
+mod comments;
 
 fn main() {
     variables_constants::exec();
@@ -12,4 +13,5 @@ fn main() {
     functions_code_blocks::exec();
     conditionals::exec();
     control_flow::exec();
+    comments::exec();
 }

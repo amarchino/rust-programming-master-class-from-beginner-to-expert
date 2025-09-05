@@ -8,6 +8,7 @@ mod comments;
 mod compiler_directives;
 mod error_messages;
 mod operators;
+mod associativity_overloading;
 
 fn main() {
     variables_constants::exec();
@@ -20,4 +21,5 @@ fn main() {
     compiler_directives::exec();
     error_messages::exec();
     operators::exec();
+    associativity_overloading::exec();
 }

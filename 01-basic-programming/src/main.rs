@@ -10,6 +10,7 @@ mod error_messages;
 mod operators;
 mod associativity_overloading;
 mod operator_precedence;
+mod mutability_function;
 
 fn main() {
     variables_constants::exec();
@@ -24,4 +25,5 @@ fn main() {
     operators::exec();
     associativity_overloading::exec();
     operator_precedence::exec();
+    mutability_function::exec();
 }

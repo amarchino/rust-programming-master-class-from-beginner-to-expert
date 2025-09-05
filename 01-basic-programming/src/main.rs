@@ -9,6 +9,7 @@ mod compiler_directives;
 mod error_messages;
 mod operators;
 mod associativity_overloading;
+mod operator_precedence;
 
 fn main() {
     variables_constants::exec();
@@ -22,4 +23,5 @@ fn main() {
     error_messages::exec();
     operators::exec();
     associativity_overloading::exec();
+    operator_precedence::exec();
 }

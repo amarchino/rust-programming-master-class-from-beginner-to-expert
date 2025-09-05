@@ -5,6 +5,7 @@ mod functions_code_blocks;
 mod conditionals;
 mod control_flow;
 mod comments;
+mod compiler_directives;
 
 fn main() {
     variables_constants::exec();
@@ -14,4 +15,5 @@ fn main() {
     conditionals::exec();
     control_flow::exec();
     comments::exec();
+    compiler_directives::exec();
 }

@@ -6,6 +6,7 @@ mod conditionals;
 mod control_flow;
 mod comments;
 mod compiler_directives;
+mod error_messages;
 
 fn main() {
     variables_constants::exec();
@@ -16,4 +17,5 @@ fn main() {
     control_flow::exec();
     comments::exec();
     compiler_directives::exec();
+    error_messages::exec();
 }
